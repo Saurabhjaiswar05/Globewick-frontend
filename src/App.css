@@ -1,0 +1,109 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.registerForm{
+  border: 2px solid black;
+  padding: 20px;
+}
+
+.loginform{
+  border: 2px solid black;
+  padding: 20px;
+}
+
+.loginInputs{
+  width: 300px;
+  outline: none;
+  padding: 5px;
+}
+
+.head{
+  text-align: center;
+}
+
+.formdiv{
+  display: flex;
+  flex-direction: column;
+}
+.errormerge{
+  display: flex;
+  align-items: center;
+}
+.inputs{
+  width: 250px;
+  outline: none;
+  padding: 5px;
+  margin-bottom: 4px;
+}
+
+.ginput{
+  width: 260px;
+  padding: 7px;
+}
+
+.input-error{
+  border: 1px solid red;
+  width: 250px;
+  outline: none;
+  padding: 5px;
+}
+
+.error-msg{
+  color: red;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.first{
+  display: flex; 
+  gap: 25px;
+}
+
+.forbuttons{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.btn1{
+  margin-top: 20px;
+  padding: 5px 10px;
+  font-size: 18px;
+  background: rgb(29, 147, 194);
+  color: black;
+  outline: none;
+  border: 1px solid rgb(29, 147, 194);
+  cursor: pointer;
+  width: 300px;
+}
+
+
+/* register rsponsive */
+
+@media screen and (max-width: 480px) {
+  .loginform{
+    border: 2px solid black;
+    padding: 5px;
+  }
+  .first{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+  .inputs{
+    width: 300px;
+    outline: none;
+    padding: 5px;
+    margin-bottom: 5px;
+  }
+  .ginput{
+    width: 310px;
+    padding: 7px;
+  }
+  
+}
